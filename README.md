@@ -24,9 +24,8 @@ A production-grade Machine Learning API deployed on Azure that predicts credit d
 
 ### **ML Pipeline Flow**
 
-```
-INGEST → TRAIN → STORE → SERVE → USER
-```
+![Azure ML Pipeline Architecture](flow/flow.png)
+
 
 1. **Data Ingestion**: Kaggle datasets → Azure Blob Storage (Raw Data)
 2. **Model Training**: Azure ML Compute + Python → Trains LightGBM Model

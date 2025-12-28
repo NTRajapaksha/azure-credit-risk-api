@@ -215,11 +215,7 @@ az storage blob upload \
 ```
 
 ### **Model Metrics**
-- **Accuracy**: 82.5%
-- **Precision**: 79.3%
-- **Recall**: 76.8%
-- **F1-Score**: 78.0%
-- **AUC-ROC**: 0.87
+ **AUC-ROC**: 0.76
 
 ## 🚢 Deployment
 
